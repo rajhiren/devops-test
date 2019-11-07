@@ -1,4 +1,4 @@
-FROM tomcat:latest
+FROM tomcat:1.0.0
 LABEL maintainer="Val Feron"
 
 ENV CATALINA_HOME /usr/local/tomcat

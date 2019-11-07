@@ -12,4 +12,4 @@ test for devops
   - we should replace `MAINTAINER` with `LABEL maintainer` because it has been deprecated (ref: https://docs.docker.com/engine/reference/builder/), Also it will help tremendously when using `docker inspect`
 
   - some nice to have changes but not really a deal breaker
-    1. use `WORKDIR` so it is easily maintainable for future if we have to change path
+    1. use `WORKDIR` so it is easily maintainable for future if we have to change anything. Also, it helps with clarity and reliability of Dockerfile
