@@ -1,4 +1,4 @@
-FROM tomcat:1.0.0
+FROM tomcat:latest
 LABEL maintainer="Val Feron" \
       is-production="0" \
       version="0.0.1-beta" \
