@@ -15,4 +15,4 @@ COPY hello-world.war /webapps/ROOT.war
 
 EXPOSE 8080
 
-ENTRYPOINT ["/bin/catalina.sh", "run"]
+ENTRYPOINT ["/usr/local/tomcat/bin/catalina.sh", "run"]
