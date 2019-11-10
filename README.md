@@ -40,6 +40,9 @@ parameters.
   - Also we have used wrong `container.image` as we have advised in pdf that `Dockerfile hello-world` would be the image name
 
 
-# Why do they need to do that simultaneously? What problem could appear if the memory value is modified in only one of
-those two files above?
+# Why do they need to do that simultaneously? What problem could appear if the memory value is modified in only one of those two files above?
   - The only memory reference in Dockerfile is the `heap size` we are defining there, which can be defined in `yaml` file when we can set `env` there and which will avoid changing any memory in Dockerfile. Which means developers still have to come to `devops` to change but at least this way there is only one place to change memory memeory
+  
+  
+  
+  
