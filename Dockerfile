@@ -5,7 +5,7 @@ LABEL maintainer="Val Feron" \
       release-date="2019-11-08"
 
 ENV CATALINA_HOME /usr/local/tomcat
-ENV JAVA_OPTS="-Xmx12g -Xms12g"
+# ENV JAVA_OPTS="-Xmx12g -Xms12g"
 
 WORKDIR $CATALINA_HOME
 

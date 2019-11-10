@@ -22,6 +22,9 @@ spec:
       - name: devops-hello-world
         image: hello-world
         imagePullPolicy: Never
+        env:
+        - name: JAVA_OPTS
+          value: "-Xmx12g -Xms12g"
         ports:
         - containerPort: 8080
           protocol: TCP
