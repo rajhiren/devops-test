@@ -45,5 +45,7 @@ parameters.
   - The only memory reference in Dockerfile is the `heap size` we are defining there, which can be defined in `yaml` file when we can set `env` there and which will avoid changing any memory in Dockerfile. Which means developers still have to come to `devops` to change but at least this way there is only one place to change memory memeory
   
   
+ ![alt text] https://raw.githubusercontent.com/rajhiren/devops-test/master/Screen%20Shot%202019-11-10%20at%2023.21.16.png 
   
   
+ ![alt text] https://raw.githubusercontent.com/rajhiren/devops-test/master/Screen%20Shot%202019-11-10%20at%2023.23.23.png
